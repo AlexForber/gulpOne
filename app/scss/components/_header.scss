@@ -1,0 +1,49 @@
+.header{
+
+    margin-top: 16px;
+
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    &__logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &-text{
+        margin-left: 14px;
+        font-size: 24px;
+        color: $text-color-white;
+    }
+    }
+    
+    &__nav-list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 103px;
+    }
+
+    &__nav-link{
+        font-size: 16px;
+        color: $text-color-white;
+    }
+
+    &__button{
+        width: 138px;
+        height: 48px;
+        color:$text-color-white;
+        background-color: transparent;
+        font-size: 14px;
+        border: 1px solid rgba(255, 255, 255, 0.295743);
+        border-radius: 6px;
+    }
+}
